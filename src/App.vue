@@ -86,8 +86,8 @@
   }
 
   .header h1{
-width: 20%;
-text-align: center;
+    width: 20%;
+    text-align: center;
   }
   
   .header nav {

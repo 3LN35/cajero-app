@@ -6,6 +6,7 @@ import App from './App'
 const router = new vueRouter({
     mode: 'history',
     base: __dirname,
+    
     routes: [
     {
         path: '/',
@@ -16,12 +17,12 @@ const router = new vueRouter({
         path: '/user/:username',
         name: "user",
         component: User
-        },
-        {
+    },
+    {
         path: '/user/balance/:username',
         name: "user_balance",
         component: UserBalance
-        },
+    },
     ]
 })
 
